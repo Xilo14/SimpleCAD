@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-ServiceWorkerConsoleDemo-0B7A98A2-74B1-4C2F-920C-47C900FCBF2C</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="SharpVectors" Version="1.7.1" />
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SimpleCAD.Tracers\SimpleCAD.Tracers.csproj" />
+    <ProjectReference Include="..\..\SimpleCAD.Core\SimpleCAD.Core.csproj" />
+    <ProjectReference Include="..\..\SimpleCAD.IO\SimpleCAD.IO.csproj" />
+	<ProjectReference Include="F:\Repos\SimpleCAD\SVG-master\Source\Svg.csproj" />
+  </ItemGroup>
+</Project>
